@@ -1,6 +1,7 @@
 # DY2018_RSS(电影天堂爬取RSS)
 自动爬取电影天堂最新一页的电影为RSS订阅源
 
+RSS地址：http://localhost:30397/rss
 ## Docker命令
 docker run -d -p 30397:30397 --name dy2018_rss amamiyahotaru/dy2018_rss
 
