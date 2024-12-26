@@ -19,6 +19,7 @@ async function fetchData(url) {
         return html;
     } catch (error) {
         console.error(`请求失败: ${error.message}`);
+        return ''; 
     }
 }
 
